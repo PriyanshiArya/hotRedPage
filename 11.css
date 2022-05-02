@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.1vw 3.8vh;
+}
+#maininner{
+    /* background-color: rgb(223, 130, 130); */
+    width: 96%;
+    height: 95%;
+    display: flex;
+}
+#maininner #left{
+    position: relative;
+    /* background-color: burlywood; */
+    width: 88%;
+    height: 100%;
+
+}
+#maininner #right{
+    position: absolute;
+    top: -7.6vh;
+    right: 0%;
+    /* background-color: lawngreen; */
+    background-position:center;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/736x/9b/ea/cd/9beacd4e12afccc7d88c338a09b0cfac.jpg");
+    width: 15%;
+    height: 110%;
+}
+#lbtm{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 320px;
+    /* height: 220px; */
+    /* background-color: blueviolet; */
+}
+#lbtm h2{
+    font-size: 50px;
+    line-height: 60px;
+}
+#lbtm p{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#lbtm h2:nth-child(3){
+    color:rgb(220, 20, 20);
+}
+#icons{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 38%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+
+}
+#icons #blog{
+    position: absolute;
+    left: -14%;
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+}
+#icons i{
+    margin-left: 25px;
+}
+#icons :nth-child(4){
+    color:rgb(220, 20, 20);
+}
+#blog #line{
+    width: 18px;
+    background-color: black;
+    height: 1px;
+    margin-top: 2px;
+}
+#blog h2{
+    font-size: 12px;
+}
+#ltp{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 0%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ltp i{
+    font-size: 22px;
+}
+#ltp button{
+    background-color: rgb(221,10,53);
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: white;
+    font-size: 10px;
+}
+#ltp2{
+    width: 200px;
+    /* height: 200px; */
+    position: absolute;
+    top: -7.6vh;
+    left: 50%;
+    /* background-color: crimson; */
+    /* background-position: bottom;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/564x/1d/5f/80/1d5f808a9f82af74c6665ab3e7689408.jpg"); */
+}
+#ltp2 img{
+    width: 200px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+#ltp2 h6{
+    line-height: 15px;
+    font-weight: 400;
+}
+#lbtm1{
+    width: 250px;
+    /* height: 300px; */
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    /* background-color: crimson; */
+}
+#lbtm1 img{
+    margin-top: 15px;
+    width: 250px;
+    height: 270px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+#lbtm1 h1{
+    font-weight: 800;
+    font-family: "voyage";
+}
+#lbtm1 h5{
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 10px;
+}
+
+#ltp3{
+    width: 130px;
+    /* height: 90px; */
+    position: absolute;
+    top: 0%;
+    right: -4%;
+    z-index: 9;
+    /* background-color: rgb(146, 74, 74); */
+}
+#ltp3 h2{
+    font-size: 12px;
+    color:rgb(220, 20, 20);
+    line-height: 18px;
+}
+#ltp3 p{
+    margin-top: 8px;
+    font-size: 8px;
+    line-height: 12px;
+
+}
+#lbtm2{
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    right: 0%;
+    bottom: -7.6vh;
+    background-color: rgb(238, 6, 53);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#lbtm2 h5{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+#rbtm{
+    width: 100px;
+    height: 64.5px;
+    position: absolute;
+    right:56%;
+    /* bottom: -7.8%; */
+    bottom: 2%;
+    background-color: rgb(238, 6, 53);
+    color: #fff;
+    z-index: 999;
+
+}
+#rbtm i{
+    position: absolute;
+    top: 45%;
+    margin-left: 50%;
+    color: #fff;
+    z-index: 99;
+    align-items: center;
+}
+#rtp{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#rtp i{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: #fff;
+}
+
+#line2{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
